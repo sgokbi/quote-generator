@@ -57,6 +57,7 @@ button {
   border-radius: 30px;
   font-weight: 400;
   letter-spacing: 1px;
+  cursor: pointer;
 }
 
 /* =============== RESPONSIVE =========== */
