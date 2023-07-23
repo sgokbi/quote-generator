@@ -5,4 +5,4 @@ The [Quote Generator] (https://sgokbi.github.io/quote-generator/) project displa
 
 ### used technologies
  1. To get the quotes, I used  [Kanye API] (https://kanye.rest/)
- 2. To wrap the quote, I used [Remix icon) (https://remixicon.com/)
+ 2. To wrap the quote, I used [Remix icon] (https://remixicon.com/) 
