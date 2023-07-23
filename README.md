@@ -1,6 +1,6 @@
 # quote-generator 
 
-The [Quote Generator](https://sgokbi.github.io/quote-generator/) project displays quotes. Every time it shows only one quote and displays another new quote when the user clicks the  'New Quote' button. 
+The [Quote Generator](https://sgokbi.github.io/quote-generator/) project displays quotes. Every time it shows only one quote and shows another new quote when the user clicks the  'New Quote' button. 
 
 
 ### used technologies
