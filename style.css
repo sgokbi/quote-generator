@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to right, #4568dc, #b06ab3);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 40%;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.quote-container {
+  text-align: center;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #b06ab3;
+  padding-bottom: 2rem;
+}
+
+.quote-container p {
+  color: #333;
+  font-size: 1.2rem;
+}
+
+.quote-container p i {
+  color: #b06ab3;
+  font-size: 1.8rem;
+  margin: 0.3rem;
+}
+
+button {
+  width: 100%;
+  border: none;
+  background: #b06ab3;
+  padding: 0.4rem;
+  color: white;
+  font-size: 1.4rem;
+  border-radius: 30px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+/* =============== RESPONSIVE =========== */
+@media screen and (max-width: 991px) {
+  .container {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 668px) {
+  .container {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .quote-container p {
+    font-size: 0.9rem;
+  }
+
+  .quote-container p i {
+    font-size: 1rem;
+  }
+
+  button {
+    font-size: 1rem;
+  }
+}
